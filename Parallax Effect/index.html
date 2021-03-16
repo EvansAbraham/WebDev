@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="jarallax.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Parallax Effect</title>
+</head>
+<body>
+    <section>
+        <div class="box">
+            <h2 data-jarallax-element="0 -200">City</h2>
+            <div class="container">
+                <div class="imgBx jarallax">
+                    <img src="bg1.jpg" class="jarallax-img">
+                </div>
+                <div class="content" data-jarallax-element="-200 0">
+                    <p>I looked into the night sky, expecting to see stars as 
+                        I do from my home tucked away in our little corner of the world; 
+                        however I get bright neon and electronic billboards
+                        that brighten the night sky so not even a twinkling of a star
+                        can show its light down on me.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="box">
+            <h2 data-jarallax-element="0 200">Beach</h2>
+            <div class="container">
+                <div class="imgBx jarallax">
+                    <img src="bg2.jpg" class="jarallax-img">
+                </div>
+                <div class="content" data-jarallax-element="-200 0">
+                    <p>The beach is just an amazing place to be,
+                        just listening to the sound of the waves,
+                        feeling the cool breeze across my face and
+                        my feet emerged into the sand makes me feel so relaxed, 
+                        peaceful and completely free as though, 
+                        I am in a magical place so calm and beautiful</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="box">
+            <h2 data-jarallax-element="0 -200">Desert</h2>
+            <div class="container">
+                <div class="imgBx jarallax">
+                    <img src="bg3.jpg" class="jarallax-img">
+                </div>
+                <div class="content" data-jarallax-element="-200 0">
+                    <p>A desert is a barren area of landscape where little precipitation occurs and,
+                       consequently, living conditions are hostile for plant and animal life.
+                       The lack of vegetation exposes the unprotected surface of the ground to the processes of denudation. 
+                       About one-third of the land surface of the world is arid or semi-arid</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="box">
+            <h2 data-jarallax-element="0 200">Mountain</h2>
+            <div class="container">
+                <div class="imgBx jarallax">
+                    <img src="bg4.jpg" class="jarallax-img">
+                </div>
+                <div class="content" data-jarallax-element="-200 0">
+                    <p>A mountain is an elevated portion of the Earth's crust,
+                       generally with steep sides that show significant exposed bedrock.
+                       A mountain differs from a plateau in having a limited summit area,
+                       and is larger than a hill,
+                       typically rising at least 300 metres (1000 feet) above the surrounding land.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="box">
+            <h2 data-jarallax-element="0 -200">Forest</h2>
+            <div class="container">
+                <div class="imgBx jarallax">
+                    <img src="bg5.jpg" class="jarallax-img">
+                </div>
+                <div class="content" data-jarallax-element="-200 0">
+                    <p>A forest is a piece of land with many trees.
+                       Many animals need forests to live and survive.
+                       Forests are very important and grow in many places around the world.
+                       They are an ecosystem which includes many plants and animals.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="jarallax.js"></script>
+    <script src="jarallax-element.js"></script>
+    <script type="text/javascript">
+        jarallax(document.querySelectorAll('.jarallax'), {
+            speed: 0.5
+        });
+    </script>
+</body>
+</html>
